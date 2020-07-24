@@ -1,0 +1,42 @@
+* {
+  font-family: Helvetica, arial, sans-serif;
+  background-image: url("../src/assets/10.gif");
+  color: #fafafa;
+  text-align: center;
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  color: #ffffff;
+  font-size: 1.2rem;
+  width: 100%;
+  border: 1px solid #fafafa;
+}
+
+h2 {
+  font-size: 4rem;
+}
+span {
+  color: rgb(0, 217, 255);
+}
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid rgb(0, 217, 255);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+card img {
+  width: 20px;
+}
