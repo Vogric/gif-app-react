@@ -16,7 +16,13 @@ export const AddCategory = ({ setCategories }) => {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" placeholder="Whrite here..." value={inputValue} onChange={handleInputChange} />
+      <input
+        className="card animate__animated animate__shakeX animate__delay-5s	6s"
+        type="text"
+        placeholder="Search a GIF"
+        value={inputValue}
+        onChange={handleInputChange}
+      />
     </form>
   );
 };
